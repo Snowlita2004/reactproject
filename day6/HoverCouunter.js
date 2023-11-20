@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import HOC from './HOC'
+import Day6CE from './Day6CE'
 
 class HoverCouunter extends Component {
   render() {
@@ -10,5 +10,4 @@ class HoverCouunter extends Component {
     )
   }
 }
-
-export default HOC(HoverCouunter)
+export default Day6CE(HoverCouunter)
